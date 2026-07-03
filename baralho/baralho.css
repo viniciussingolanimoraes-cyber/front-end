@@ -102,3 +102,18 @@ body {
     font-weight: bold;
     color: black;
 }
+.baixo3{
+    margin-top: 90%;
+    font-family: arial;
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+}
+.cima3{
+    margin-top: -1%;
+    font-family: arial;
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+}
+
