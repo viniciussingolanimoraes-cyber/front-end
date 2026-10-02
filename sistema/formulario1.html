@@ -1,77 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
       .site{
-        width:600 px;
-        height:600 px;
-        background-color:brown
+        width:600px;
+        height:600px;
+        background-color: rgb(234, 187, 129);
       }
- 
-</style>
+      .linha1{
+        flex-direction:row;
+      }
+      .linha2{
+        flex-direction:row;
+      }
+      .linha3{
+        flex-direction:row;
+      }
+      .linha4{
+        flex-direction:row;
+      }
+      .linha5{
+        flex-direction:row;
+      }
+      .linha6{
+        flex-direction:row;
+      }
+      .linha7{
+        flex-direction:row;
+      }
+      .linha8{
+        flex-direction:row;
+      }
+      .linha9{
+        flex-direction:row;
+      }
+    </style>
 </head>
 <body>
-  <div class="site">
-    <div class="linha1">
-       <input type="text">
-       <select>
-           <option>Masculino</option>
-           <option>Feminino</option>
-           <option>Outros</option>
-       </select>
-    </div>
-    <div class="linha2">
-           <input type="date">
-           <input type="text">
-           <input type="text">
-           <input type="text">
-    </div>
-    <div class="linha3">
-           <input type="email">
-           <input type="text">
-           <input type="text">
-    </div>
-    <div class="linha4">
-           <input type="text">
-           <input type="text">
-           <input type="number">
-           <input type="text">
-    </div>
-    <div class="linha5">
-           <input type="text">
-           <input type="text">
-       <select>
-           <option>SP</option>
-           <option>PR</option>
-       </select>
-    </div>
-    <div class="linha6">
-           <input type="text">
-           <input type="number">
-           <input type="text">
-    </div>
-    <div class="linha7">
-        <select>
+    <div class="site">
+        <fieldset>
+          <legend>DADOS PESSOAIS</legend>
+        <div class="linha1">
+          Nome Completo:<input type="text">
+          Sexo:
+            <select>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outros</option>
+            </select>
+           
+        </div>
+        <div class="linha2">
+          Data de Nascimento:<input type="date">
+          CPF:<input type="text">
+          RG:<input type="text">
+          Nacionalidade:<input type="text">
+        </div>
+        <div class="linha3">
+        Email:<input type="email">
+        Telefone Celular:<input type="number">
+        Telefone Residencial:<input type="number">
+        </div>
+        </fieldset>
+        <fieldset>
+          <legend>DADOS DE ENDEREÇO</legend>
+        <div class="linha4">
+        CEP:<input type="number">
+        Logradouro:<input type="text">
+        Numero:<input type="number">
+        Complemento:<input type="text">
+        </div>
+        <div class="linha5">
+        Bairro:<input type="text">
+        Cidade:<input type="text">
+        Estado:<select>
+            <option>SP</option>
+          </select>
+        </div>
+        </fieldset>
+        <fieldset>
+          <legend>DADOS ACADEMICOS</legend>
+        <div class="linha6">
+        Curso:<input type="text">
+        Matricula (RA):<input type="number">
+        Ano/Semestre Ingresso:<input type="text">
+        </div>
+        <div class="linha7">
+        Modalidade:<select>
             <option>Presencial</option>
-            <option>Online</option>
-        </select>
-        <select>
+          </select>
+        Turno<select>
             <option>Manha</option>
-            <option>Tarde</option>
-            <option>Noite</option>
-        </select>
-            <input type="text">
+          </select>
+        Escolaridade Anterior<input type="text">
+        </div>
+        </fieldset>
+        <fieldset>
+          <legend>DADOS DO RESPONSAVEL</legend>
+        <div class="linha8">
+        Nome do Responsavel:<input type="text">
+        CPF do responsavel<input type="text">
+        </div>
+        <div class="linha9">
+        Observaçoes:<textarea></textarea>
+        </div>
+        </fieldset>
     </div>
-    <div class="linha8">
-            <input type="text">
-            <input type="text">
-    </div>
-    <div class="linha9">
-           <textarea></textarea>
-    </div>
-  </div>
 </body>
 </html>
